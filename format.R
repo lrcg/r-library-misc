@@ -27,9 +27,9 @@ format.estimate <- function (estimate, nsmall) round(estimate, nsmall);
 # input           output
 # --------------- ------------
 # (lax mode)
-# plevel(0.11, F) "$p >0.1$"
-# plevel(0.1,  F) "$p =0.1$"
-# plevel(0.09, F) "$p <0.1$"
+# plevel(0.11, T) "$p >0.1$"
+# plevel(0.1,  T) "$p =0.1$"
+# plevel(0.09, T) "$p <0.1$"
 # (strict mode)
 # plevel(0.1)     "$p >0.05$"
 # plevel(0.051)   "$p >0.05$"
